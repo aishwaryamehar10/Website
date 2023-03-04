@@ -1,0 +1,16 @@
+.footerbottom {
+    padding : 2rem 4rem;
+    background: black;
+    color : white;
+}
+
+.bottom {
+    justify-content: space-between;
+    flex-wrap : wrap;
+}
+
+.bottom a {
+    text-decoration: none;
+    color : white;
+}
+

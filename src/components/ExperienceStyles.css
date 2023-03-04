@@ -1,0 +1,141 @@
+.experience {
+    margin : 4rem 6rem;
+}
+
+.experience h1{
+    font-size: 3rem;
+}
+
+.first-exp{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.exp-text {
+    width : 45%;
+    text-align: start;
+    font-size: 1rem;
+}
+.exp-text2 {
+    width : 45%;
+    text-align: start;
+    font-size: 1rem;
+}
+.exp-text3 {
+    width : 45%;
+    text-align: start;
+    font-size: 1rem;
+}
+
+.exp-text h2 {
+    padding-bottom: 2rem;
+}
+
+.exp-text2 h2 {
+    padding-bottom: 2rem;
+}
+
+.exp-text3 h2 {
+    padding-bottom: 2rem;
+}
+
+.exp-text .show {
+    text-decoration: none;
+    background : black;
+    padding : 1rem 1rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color : white;
+}
+.exp-text2 .show {
+    text-decoration: none;
+    background : black;
+    padding : 1rem 1rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color : white;
+}
+.exp-text3 .show {
+    text-decoration: none;
+    background : black;
+    padding : 1rem 1rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color : white;
+}
+
+@media screen and (max-width : 850px){
+    .experience {
+        margin: 4rem 2rem;
+    }
+    .first-exp {
+        display : flex;
+        flex-direction : column;
+        align-items : center;
+        justify-content: space-between;
+        margin-top : 2.5rem;
+    }
+
+    .exp-text {
+        width : 100%;
+    }
+
+    .exp-text2 {
+        width : 100%;
+    }
+
+    .exp-text3 {
+        width : 100%;
+    }
+    .exp-text .show {
+        text-decoration: none;
+        background : black;
+        padding : 0.5rem 1.1rem;
+        border-radius: 4px;
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color : white;
+    }
+    
+    .exp-text2 .show {
+        text-decoration: none;
+        background : black;
+        padding : 0.5rem 1.1rem;
+        border-radius: 4px;
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color : white;
+    }
+
+    .exp-text3 .show {
+        text-decoration: none;
+        background : black;
+        padding : 0.5rem 1.1rem;
+        border-radius: 4px;
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color : white;
+    }
+
+    .exp-text h2 {
+        padding-top: 1rem;
+    }
+    .exp-text2 h2 {
+        padding-top: 1rem;
+    }
+    .exp-text3 h2 {
+        padding-top: 1rem;
+    }
+}
+
